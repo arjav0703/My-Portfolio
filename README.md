@@ -32,8 +32,8 @@ This project is open-source and available under the MIT License.
 ---
 ### Acknowledgments
 
-    Inspired by various portfolio designs and web development tutorials.
-    Thanks to the open-source community for their contributions and resources.
+- Inspired by various portfolio designs and web development tutorials.
+- Thanks to the open-source community for their contributions and resources.
 ---
 
 ## Contact
