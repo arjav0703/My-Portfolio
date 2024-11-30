@@ -226,7 +226,7 @@ span{
 
 @keyframes words{
     0%, 20%{
-        content: "Student";
+        content: "Reader";
     }
     21%, 40%{
         content: "Ethical Hacker";
@@ -266,4 +266,73 @@ span{
         width: 70vw;
         margin-top: 4rem;
     }
+}
+
+#projects {
+    padding: 5rem 9%;
+    background-color: black; /* Match the body background */
+    z-index: 100;
+}
+
+#projects h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #9e49c0; /* Match the theme color */
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between project squares */
+    justify-content: center; /* Center align the projects */
+}
+
+.project {
+    flex: 1 1 250px; /* Grow and shrink with a base size of 250px */
+    max-width: 250px; /* Limit the maximum width */
+    padding: 1.5rem;
+    border: 1px solid #9e49c0; /* Border matching the theme */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #161616; /* Dark background for project cards */
+    color: white; /* Text color */
+    box-shadow: 0 0 15px rgba(158, 73, 192, 0.5); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.project:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #9e49c0; /* Match the theme color */
+}
+
+.project p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.4rem;
+    color: #9e49c0;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    border: 2px solid #9e49c0;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    background-color: #9e49c0;
+    color: black;
+    box-shadow: 0 0 25px #9e49c0;
 }
