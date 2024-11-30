@@ -25,6 +25,7 @@ body{
 header{
     margin-top: 20px;
     position: fixed;
+    z-index: 100;
     top: 0;
     left: 0;
     width: 100%;
@@ -112,6 +113,7 @@ section{
 
 .home .home-content h1{
     font-size: 6rem;
+    z-index: 100;
     font-weight: 700;
     line-height: 1.3;
 }
@@ -122,12 +124,14 @@ span{
 
 .home-content h3{
     font-size: 4rem;
+    z-index: 100;
     margin-bottom: 1rem;
     font-weight: 700;
 }
 
 .home-content p{
     font-size: 1.6rem;
+    z-index: 100;
 }
 
 .home-img{
@@ -271,7 +275,7 @@ span{
 #projects {
     padding: 5rem 9%;
     background-color: black; /* Match the body background */
-    z-index: 100;
+    z-index: 99;
 }
 
 #projects h2 {
