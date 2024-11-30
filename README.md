@@ -1,10 +1,4 @@
-# Project Showcase Webpage
-
-
-## Overview
-
-
-This is a simple yet elegant project showcase webpage designed to display various projects in a visually appealing manner. The webpage features a horizontal scrolling section at the bottom, allowing users to easily navigate through different projects. Each project card includes a title, description, and a link to view the project.
+# My Portfolio
 
 
 ## Features
