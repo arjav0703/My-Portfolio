@@ -340,3 +340,84 @@ span{
     color: black;
     box-shadow: 0 0 25px #9e49c0;
 }
+
+#tools {
+    padding: 5rem 9%;
+    background-color: black; /* Match the body background */
+    z-index: 99;
+}
+
+#tools h2 {
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #9e49c0; /* Match the theme color */
+    text-align: center;
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; /* Space between tool squares */
+    justify-content: left; /* Center align the tools */
+}
+
+.tools-container-right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; /* Space between tool squares */
+    justify-content: right; /* Center align the tools */
+}
+
+.tool {
+    flex: 1 1 270px; /* Grow and shrink with a base size of 250px */
+    min-height: 400px; /* Set the MINIMUM HEIGHT*/
+    max-height: 400px;
+    max-width: 1000px;
+    min-width: 1000px;
+    padding: 1.5rem;
+    border: 1px solid #9e49c0; /* Border matching the theme */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #161616; /* Dark background for tool cards */
+    color: white; /* Text color */
+    box-shadow: 0 0 15px rgba(158, 73, 192, 0.5); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+    margin: 30px;
+}
+
+.tool:hover {
+    transform: scale(1.07); /* Slightly enlarge on hover */
+}
+
+.tool h3 {
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    color: #9e49c0; /* Match the theme color */
+}
+
+.tool p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.4rem;
+    color: #9e49c0;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    border: 2px solid #9e49c0;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    background-color: #9e49c0;
+    color: black;
+    box-shadow: 0 0 25px #9e49c0;
+}
+
