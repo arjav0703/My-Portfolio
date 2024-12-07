@@ -1,5 +1,5 @@
 # My Portfolio
-
+## USE OF AI: I USED blackbox.ai FOR FIXING SOME ISSUES RELATED TO ALIGNMENT OF BOXES IN projecs.html AND FOR ADJUSTING SOME CSS styling in styles.css
 
 ## Features
 
