@@ -1,5 +1,5 @@
 # My Portfolio
-## USE OF AI: I USED blackbox.ai FOR FIXING SOME ISSUES RELATED TO ALIGNMENT OF BOXES IN projecs.html AND FOR ADJUSTING SOME CSS styling in styles.css
+## This was made by following a Tutorial: https://youtu.be/-u3vE84Wo_U?si=hnvusc5DxwBSZpHC. I have added the projects.html and tools.html along with the CSS styling related to these pages. AI was used for aligning the containers on the tools.html page.
 
 ## Features
 
