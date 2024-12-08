@@ -1,5 +1,7 @@
 # My Portfolio
-## This was made by following a Tutorial: https://youtu.be/-u3vE84Wo_U?si=hnvusc5DxwBSZpHC. I have added the projects.html and tools.html along with the CSS styling related to these pages. AI was used for aligning the containers on the tools.html page.
+## This was made by following a Tutorial: https://youtu.be/-u3vE84Wo_U?si=hnvusc5DxwBSZpHC. 
+### I have added the projects.html and tools.html along with the CSS styling related to these pages. 
+### AI was used for aligning the containers on the tools.html page.
 
 ## Features
 
