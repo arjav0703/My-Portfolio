@@ -71,13 +71,13 @@
   position: relative;
   width: 100vw;
   height: auto; /* Adjusted height to maintain aspect ratio */
-  margin-top: 15vh;
+
 }
 
 .pic-ctn > img {
   position: absolute;
-  top: 0;
-  left: calc(50% - 500px); /* Center the image */
+  
+  left: calc(50% - 800px); /* Center the image */
   width: 1000px; /* Set the width to 1000 pixels */
   height: auto; /* Maintain aspect ratio */
   opacity: 0;
