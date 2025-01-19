@@ -65,10 +65,10 @@ nav a.active{
     border-bottom: 3px solid #c0ae49;
 }
 
-@media(max-width:995px){
+@media(max-width:800px){
     nav{
         position: absolute;
-        display: none;
+        display: flex;
         top: 0;
         right: 0;
         width: 40%;
@@ -95,6 +95,41 @@ nav a.active{
         padding: 1rem;
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid #c0ae49;
+    }
+}
+
+.mobile-nav {
+    display: none;
+    padding: 30px;
+}
+
+.mobile-nav.active {
+    display: block;
+}
+
+.mobile-button {
+    color: white;
+    display: block;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+}
+
+@media (max-width: 768px) {
+    .elements {
+        display: none;
+    }
+
+    .mobile-button {
+        display: block;
+        opacity: 100;
+    }
+
+    .mobile-nav {
+        display: none;
+        flex-direction: column;
     }
 }
 
